@@ -1,0 +1,51 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Face Cleanser",
+      "price": 800,
+      "description": "A gentle cleanser for everyday use."
+    },
+    {
+      "name": "Moisturizer",
+      "price": 1200,
+      "description": "Keeps your skin soft and hydrated.",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "name": "Face Serum",
+      "price": 1500,
+      "description": "A lightweight serum for your skincare routine."
+    }
+  ],
+  "orders": [
+    {
+      "customerName": "salma",
+      "email": "salmanoor3473@gmail.com",
+      "phone": "07123456789",
+      "productId": "1",
+      "productName": "Face Cleanser",
+      "price": 800,
+      "quantity": 1,
+      "total": 800,
+      "message": "I need it",
+      "status": "Pending",
+      "id": "BAlbnHGPyX8"
+    },
+    {
+      "customerName": "halima",
+      "email": "salmanoor3473@gmail.com",
+      "phone": "07123456789",
+      "productId": "3",
+      "productName": "Face Serum",
+      "price": 1500,
+      "quantity": 4,
+      "total": 6000,
+      "message": "please deliver for me",
+      "status": "Pending",
+      "id": "m8yXFfWeHQs"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
